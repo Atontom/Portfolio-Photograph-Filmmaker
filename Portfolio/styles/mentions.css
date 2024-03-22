@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    font-weight: 100;
+    background-image: url(../img/fond.jpg);
+    background-position: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+/* Style header section*/
+header {
+    padding: 20px;
+    border-bottom: 1px solid black;
+    font-weight: 200;
+}
+
+nav {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+}
+
+.logo {
+    display: block;
+    margin-left: 30px;
+    font-size: x-large;
+}
+
+nav .menu {
+    margin-right: 30px;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+nav a {
+    margin-left: 10px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+/* Style main section*/
+main {
+    margin: 15px;
+    padding: 20px;
+}
+
+.content {
+    padding: 0px 300px 0px 300px;
+}
+
+h1 {
+    font-weight: 200;
+    margin-bottom: 40px;
+    padding-left: 200px;
+}
+
+h2 {
+    font-size: medium;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+main p {
+    margin-bottom: 20px;
+}
+
+.date {
+    margin-bottom: 40px;
+    font-style: italic;
+    padding-left: 300px;
+}
+
+.end {
+    font-style: italic;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    padding-left: 300px;
+}
+
+/* Style foooter section*/
+footer div{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-top: 1px solid black;
+    font-weight: 200;
+}
